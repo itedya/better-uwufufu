@@ -1,13 +1,17 @@
 // ==UserScript==
-// @name         Better Uwufufu
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  Moves text to the bottom, hides comments. Useful especially for twitch.
-// @author       itedya
-// @match        https://www.uwufufu.com/games/*
-// @icon         https://www.google.com/s2/favicons?domain=uwufufu.com
-// @grant        none
-// @run-at       document-start
+// @name        Better Uwufufu
+// @description Moves text to the bottom, hides comments. Useful especially for twitch.
+// @version     0.1
+// @license     MIT
+// @author      itedya
+// @match       https://www.uwufufu.com/games/*
+// @icon        https://www.google.com/s2/favicons?domain=uwufufu.com
+// @namespace   https://github.com/itedya
+// @grant       none
+// @run-at      document-start
+// @updateURL   https://raw.githubusercontent.com/itedya/better-uwufufu/main/script.js
+// @downloadURL https://raw.githubusercontent.com/itedya/better-uwufufu/main/script.js
+// @supportURL  https://github.com/itedya/better-uwufufu/issues
 // ==/UserScript==
 
 function addGlobalStyle(css) {
